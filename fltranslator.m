@@ -32,13 +32,16 @@ words = convertStringsToChars(transcriptWords);
 %translation =  translator(words,langInISO,langOut);
 translation = translationAPI(words,langInISO,langOut);
 
-disp("")
-disp("Phrase in " + language1 + ": " + words)
-disp("Phrase in " + language2 + ": " + translation)
-
 setOptions(googleSpeechClient,'languageCode',langOut);
 output = text2speech(googleSpeechClient,translation);
 soundsc(output,fs/2)
+
+language1 = upper(language1);
+language2 = upper(language2);
+
+fileID = fopen('output.txt','at+');
+fprintf(fileID, "Phrase in %s: %s \nPhrase in %s: %s \n\n", language1, words, language2, translation);
+fclose(fileID);
 
 function [audioIn,fs] = record(time)
     recordTime = time;
