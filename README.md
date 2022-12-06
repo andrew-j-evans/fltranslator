@@ -8,9 +8,9 @@ fltranslator is a foreign language translator that utilizes a speech to text API
 ### Last Edited: 2022.02.12
 
 ## How to Use
-Download the [ftranslator.zip](github.com/link "fltranslator.zip") folder and extract its contents to your computer
-Open the fltranslator folder and open the file called fltranslator.m
-Click the triangle button at the bottom of the pop up screen to start. 
+- Download the [ftranslator.zip](github.com/link "fltranslator.zip") folder and extract its contents to your computer
+- Open the fltranslator folder and open the file called fltranslator.m
+- Click the triangle button at the bottom of the pop up screen to start. 
 
 ### Bugs and updates
 #### [0.1.3] - 2021.09.08 
