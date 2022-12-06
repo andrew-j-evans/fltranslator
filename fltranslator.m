@@ -73,8 +73,6 @@ function [langIn, langInISO, langOut, language1, language2] = getLanguageCode(tr
     langID = {'fr', 'de', 'ja', 'zh', 'ko', 'ar', 'es', 'hi', 'ru', 'iw', 'pt', 'en'};
     langISO = {'fr-FR', 'de-DE', 'ja-JP', 'zh', 'ko-KR', 'ar-EG', 'es-US', 'hi-IN', 'ru-RU', 'iw-IL', 'pt-PT', 'en-US'};
     
-    %inputIndex = find(ismember(languages,words(1)));
-    %outputIndex = find(ismember(languages,words(3)));
     langIn = 'Und';
     langInISO = 'Und';
     langOut = 'Und';
