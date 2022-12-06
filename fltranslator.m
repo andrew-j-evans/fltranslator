@@ -69,9 +69,9 @@ function [langIn, langInISO, langOut, language1, language2] = getLanguageCode(tr
 
     %Lang in codes https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages
     %Langout and ISO code http://www.transltr.org/api/getlanguagesfortranslate
-    languages = {'french', 'german', 'japanese', 'chinese', 'korean','arabic', 'spanish', 'hindi', 'russian', 'hebrew', 'portugese', 'english', 'punjabi'};
-    langID = {'fr', 'de', 'ja', 'zh', 'ko', 'ar', 'es', 'hi', 'ru', 'iw', 'pt', 'en', 'pa'};
-    langISO = {'fr-FR', 'de-DE', 'ja-JP', 'zh', 'ko-KR', 'ar-EG', 'es-US', 'hi-IN', 'ru-RU', 'iw-IL', 'pt-PT', 'en-US', 'pa-Guru-IN'};
+    languages = {'french', 'german', 'japanese', 'chinese', 'korean','arabic', 'spanish', 'hindi', 'russian', 'hebrew', 'portugese', 'english'};
+    langID = {'fr', 'de', 'ja', 'zh', 'ko', 'ar', 'es', 'hi', 'ru', 'iw', 'pt', 'en'};
+    langISO = {'fr-FR', 'de-DE', 'ja-JP', 'zh', 'ko-KR', 'ar-EG', 'es-US', 'hi-IN', 'ru-RU', 'iw-IL', 'pt-PT', 'en-US'};
     
     %inputIndex = find(ismember(languages,words(1)));
     %outputIndex = find(ismember(languages,words(3)));
