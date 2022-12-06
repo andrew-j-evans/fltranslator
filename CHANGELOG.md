@@ -7,10 +7,7 @@ Editor: A. Evans
 
 ## [Unreleased]
 
-### [0.0.0] -2020-06-08
+### [0.0.0] -2022-12-05
 ### Added
-- A
-- B
-
-Start and stop for thermocouples 1 through 7
-- Automatic averaging for thermocouple sets
+- Input language detection from English to over 12 different languages
+- Supported languages include English, French, German, Japanese, Korean, Arabic, Spanish, Hindi, Russian, Hebrew, and Portugese
