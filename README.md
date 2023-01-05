@@ -21,7 +21,7 @@ First program version published
 ## License
 A. Evans, hereby disclaims all copyright interest in the program “fltranslator” (which translates foreign languages) written by A. Evans.
 
-Signature of A. Evans 05 December 2022
+Signature of A. Evans 05 December 2022:
 A. Evans, Owner
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
