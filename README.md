@@ -10,17 +10,7 @@ fltranslator is a foreign language translator that utilizes a speech to text API
 ## How to Use
 - Download the [ftranslator.zip](github.com/link "fltranslator.zip") folder and extract its contents to your computer
 - Open the fltranslator folder and open the file called fltranslator.m
-- Click the triangle button at the bottom of the pop up screen to start. 
-
-### Bugs and updates
-#### [0.1.3] - 2021.09.08 
-Added a green triangle button to start the program.
-#### [0.1.2] - 2020.03.25 
-Updated the acquisition tool to invert the temperature measurements to correct the calculation.
-#### [0.1.1] - 2018.12.05
-Updated the button placement for user ease.
-#### [0.1.0] - 2019.06.10
-Added GUI for running the program
+- Click the triangle button at the top of the screen to start.
 
 ## License
 A. Evans, hereby disclaims all copyright interest in the program “fltranslator” written by A. Evans.
